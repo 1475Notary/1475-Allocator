@@ -39,9 +39,9 @@
     "State": "Granted",
     "Validated At": "2024-04-03 09:09:31.245368242 UTC",
     "Validated By": "1475Notary",
-    "Active": true,
-    "Updated At": "2024-04-24 02:57:59.211496639 UTC",
-    "Active Request ID": "bf554fc4-1342-486f-8f9d-e6a181a8c29f",
+    "Active": false,
+    "Updated At": "2024-04-24 03:00:04.809935828 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f1nh77gas227kn3mprrcbpou5wwkfb4n52vemgpta",
     "Multisig Address": "false",
     "edited": null
