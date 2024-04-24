@@ -40,10 +40,11 @@
     "Validated At": "2024-04-03 09:09:31.245368242 UTC",
     "Validated By": "1475Notary",
     "Active": true,
-    "Updated At": "2024-04-03 09:21:16.439809339 UTC",
-    "Active Request ID": "7f521ef5-ffc6-4aeb-964d-35abb838e7ba",
+    "Updated At": "2024-04-24 02:57:59.211496639 UTC",
+    "Active Request ID": "bf554fc4-1342-486f-8f9d-e6a181a8c29f",
     "On Chain Address": "f1nh77gas227kn3mprrcbpou5wwkfb4n52vemgpta",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": [
     {
@@ -59,6 +60,22 @@
           "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
           "Created At": "2024-04-03 09:21:13.370000000 UTC",
           "Message CID": "bafy2bzaceawzlvawphd6xleksza335aw6a5zc76sepssruwtt6pbkynywvb5e"
+        }
+      ]
+    },
+    {
+      "ID": "bf554fc4-1342-486f-8f9d-e6a181a8c29f",
+      "Request Type": "Refill",
+      "Created At": "2024-04-23 13:00:05.204954217 UTC",
+      "Updated At": "2024-04-23 13:00:05.204955773 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2024-04-24 02:57:57.111000000 UTC",
+          "Message CID": "bafy2bzacea4ksjrvqqkfgu46fpdigw7qpei7z7bcvi7quteyz7fcwi6joson6"
         }
       ]
     }
