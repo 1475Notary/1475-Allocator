@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "ID": "f1kvw5ia7e3ab2e3gc7hfgn6dld6xwbz6rid2xm4i",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "Digital Earth Africa",
+    "Region": "South Africa",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://registry.opendata.aws/deafrica-landsat/",
+    "Social Media": "Walid",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Digital Earth Africa (DE Africa) provides free and open access to a copy of Landsat Collection 2 Level-2 products over Africa. These products are produced and provided by the United States Geological Survey (USGS). The Landsat series of Earth Observation satellites, jointly led by USGS and NASA, have been continuously acquiring images of the Earth’s land surface since 1972. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Landsat scenes and metadata",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We have ready to use lotus to prepare car files in the next step. We've already downloaded data to our storage server and we support both online and offline transfer with SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://deafrica-landsat/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02816050|USA\r\nf0148494|ShamShuiPo\r\nf01841134|Guizhou\r\nf03027241|HK\r\nf02029743|Singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "705TiB",
+    "Replicas": 7,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-05-07 06:53:01.730553768 UTC",
+    "Validated By": "1475Notary",
+    "Active": true,
+    "Updated At": "2024-05-07 06:53:50.163461065 UTC",
+    "Active Request ID": "ec829c0d-a39d-47eb-b194-b451e8fb001d",
+    "On Chain Address": "f1kvw5ia7e3ab2e3gc7hfgn6dld6xwbz6rid2xm4i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ec829c0d-a39d-47eb-b194-b451e8fb001d",
+      "Request Type": "First",
+      "Created At": "2024-05-07 06:53:01.730559819 UTC",
+      "Updated At": "2024-05-07 06:53:01.730560466 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2024-05-07 06:53:48.667000000 UTC",
+          "Message CID": "bafy2bzaceaad3zfgjn73iuhdlbjhxnynq5p5kxm5aii4uopjy3qsl64aeatpw"
+        }
+      ]
+    }
+  ]
+}
