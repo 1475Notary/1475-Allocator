@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Digital Earth Africa (DE Africa) provides free and open access to a copy of Landsat Collection 2 Level-2 products over Africa. These products are produced and provided by the United States Geological Survey (USGS). The Landsat series of Earth Observation satellites, jointly led by USGS and NASA, have been continuously acquiring images of the Earth’s land surface since 1972. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Landsat scenes and metadata",
@@ -36,11 +35,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-05-07 06:53:01.730553768 UTC",
     "Validated By": "1475Notary",
     "Active": true,
-    "Updated At": "2024-05-11 05:00:04.236225660 UTC",
+    "Updated At": "2024-05-18 13:59:11.006290519 UTC",
     "Active Request ID": "d51de9c1-6dc8-424a-b756-212b7f971bbb",
     "On Chain Address": "f1kvw5ia7e3ab2e3gc7hfgn6dld6xwbz6rid2xm4i",
     "Multisig Address": "false",
@@ -84,9 +83,16 @@
       "Request Type": "Refill",
       "Created At": "2024-05-11 05:00:04.236237303 UTC",
       "Updated At": "2024-05-11 05:00:04.236238714 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2024-05-18 13:59:08.626000000 UTC",
+          "Message CID": "bafy2bzaceddjlasqowgodixaf7imtwrb7cdxlyjyc7g7csjoodtbfka4ghpei"
+        }
+      ]
     }
   ]
 }
