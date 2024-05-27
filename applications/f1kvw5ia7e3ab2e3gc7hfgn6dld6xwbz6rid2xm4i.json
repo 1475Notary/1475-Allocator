@@ -35,11 +35,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-05-07 06:53:01.730553768 UTC",
     "Validated By": "1475Notary",
     "Active": true,
-    "Updated At": "2024-05-24 17:00:03.542120325 UTC",
+    "Updated At": "2024-05-27 08:18:50.240122411 UTC",
     "Active Request ID": "ae4b4a09-1255-47a7-ae9b-76c88e21a73c",
     "On Chain Address": "f1kvw5ia7e3ab2e3gc7hfgn6dld6xwbz6rid2xm4i",
     "Multisig Address": "false",
@@ -99,9 +99,16 @@
       "Request Type": "Refill",
       "Created At": "2024-05-24 17:00:03.542134494 UTC",
       "Updated At": "2024-05-24 17:00:03.542136853 UTC",
-      "Active": true,
-      "Allocation Amount": "2PiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2024-05-27 08:18:46.656000000 UTC",
+          "Message CID": "bafy2bzacebhqzw7asyygcvut2zowykbersdmwxvp23gdbbojdkggg2ko7ujw6"
+        }
+      ]
     }
   ]
 }
