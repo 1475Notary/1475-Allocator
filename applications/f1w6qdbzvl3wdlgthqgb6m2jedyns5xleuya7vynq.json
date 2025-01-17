@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-01-11 13:55:40.495260674 UTC",
+    "Validated At": "2025-01-17 15:11:37.344645133 UTC",
     "Validated By": "1475Notary",
     "Active": true,
-    "Updated At": "2025-01-11 13:55:40.495257418 UTC",
-    "Active Request ID": "ceda073a-c8d4-4209-ad37-6ba3dc87fbff",
+    "Updated At": "2025-01-17 15:11:37.344640964 UTC",
+    "Active Request ID": "2638d4d5-5e86-44b1-a82e-ecb505a0d6ca",
     "On Chain Address": "f1w6qdbzvl3wdlgthqgb6m2jedyns5xleuya7vynq",
     "Multisig Address": "false",
     "edited": false
@@ -91,6 +91,22 @@
           "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
           "Created At": "2025-01-11 13:55:37.782000000 UTC",
           "Message CID": "bafy2bzaceccjzsfzvkgm73o5ufxb2camhl4s2mn2sp3jsjsatezrtpcadaupi"
+        }
+      ]
+    },
+    {
+      "ID": "2638d4d5-5e86-44b1-a82e-ecb505a0d6ca",
+      "Request Type": "Refill",
+      "Created At": "2025-01-17 15:10:11.384195481 UTC",
+      "Updated At": "2025-01-17 15:10:11.384196384 UTC",
+      "Active": false,
+      "Allocation Amount": "820TiB",
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2025-01-17 15:11:34.895000000 UTC",
+          "Message CID": "bafy2bzacedjshkhgaifuxklkqmros7mmdqe2qxmaqn5gek3qei2rziki5its4"
         }
       ]
     }
