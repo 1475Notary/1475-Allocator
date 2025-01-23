@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1p25pidse3dhgmatvgl4oh7bwlln7vvcyxr7gpgi",
+  "Issue Number": "38",
+  "Client": {
+    "Name": "Shanghai Small Ants E-commerce Co., Ltd.",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.mayi888.com/",
+    "Social Media": "Edana",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Founded in 2014, Shanghai Little Small Ants E-commerce Co. is dedicated to providing excellent e-commerce solutions and services to our customers. As an innovative company, our goal is to help companies achieve online sales growth and brand enhancement through digital technology and quality user experience.\n\nHeadquartered in Shanghai, China's economic and financial center, we are uniquely positioned to better access market dynamics and customer needs. We have a team of highly qualified professionals covering a wide range of areas including marketing, data analytics, technology development and customer service to ensure that we are able to provide comprehensive support to our clients.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Product Information includes product name, description, price, quantity in stock, pictures, categorization, etc. to ensure that customers have access to accurate product information and data backup.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We're used to using Lotus to prepare data.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://1drv.ms/u/s!Akx9VYxKmLxYbXG2wQTGDPp0vBQ?e=vmu1AI",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03321072 Sichuan/ f03233333 Guangdong/f03300709 Ziyang /f02029742 Ganzi /f03156722 Hongkong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "389TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "400TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-01-23 05:04:04.314120830 UTC",
+    "Validated By": "1475Notary",
+    "Active": true,
+    "Updated At": "2025-01-23 05:04:04.314117170 UTC",
+    "Active Request ID": "3e896670-2d9f-4aa1-b764-d5cd2f194b70",
+    "On Chain Address": "f1p25pidse3dhgmatvgl4oh7bwlln7vvcyxr7gpgi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "3e896670-2d9f-4aa1-b764-d5cd2f194b70",
+      "Request Type": "First",
+      "Created At": "2025-01-23 04:20:02.498898825 UTC",
+      "Updated At": "2025-01-23 04:20:02.498900141 UTC",
+      "Active": false,
+      "Allocation Amount": "205TiB",
+      "Signers": [
+        {
+          "Github Username": "1475Notary",
+          "Signing Address": "f17a4y7bgfvzl7m4dw3kbxnlfutpxfelfim6risnq",
+          "Created At": "2025-01-23 05:04:00.171000000 UTC",
+          "Message CID": "bafy2bzacebsrecle4v6e75wtcrqcflatmzvcaahmz6yxdejwtdwwuyym3ffxw"
+        }
+      ]
+    }
+  ]
+}
